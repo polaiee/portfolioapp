@@ -40,8 +40,6 @@ This is a github template repository so you can simply generate a new repository
     - `img/logo~`: These are the logo files (dark/ light and a big file) meant for showcasing on the front. Recommended to have a transparent background for these png files.
     - `img/company.jpg`: This is for the *About* section of the website. You can add your company logo, personal photo etc. here for building out the page.
     - `img/project~`: These are background images for the cards inside the projects section. Please note that these are imported as background within the `style.css` rather than showing as images within the HTML.
-- `favicon.png`: Logo image for the browser favicon
-- `apple-touch-icon-144-precomposed`: Touch icon
 - `.gitignore`: Specifies intentionally untracked files to ignore. Learn more about it [here](https://git-scm.com/docs/gitignore)
 
 ## License
