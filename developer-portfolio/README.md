@@ -1,4 +1,8 @@
-
+<p align="center">
+  <kbd>
+<img src="logo.png" width="720"></img>
+  </kbd>
+</p>
 
 ## [Live Demo] (https://vaishnaviportfolio.herokuapp.com/)
 
