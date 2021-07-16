@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+	
+
+	<!-- Meta Tags for Responsiveness -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Twitter Meta Tags -->
+
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="./log.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+	
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i" rel="stylesheet">
+	
+	<!-- Bootstrap & Other CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+	
+	<!-- Project CSS File -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+   
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/400db8db7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body onclick="colourChange()">
+	<!-- Page Wrapper -->
+	<div class="page-wrapper">
+		<!-- Header -->
+		<header>
+			<div class="logo animate">
+				<a href="#">
+					<img class="img-responsive" src="assets/img/log.png" alt="VAI">
+				</a>
+			</div>
+		</header>
+
+		<!-- Content Wrapper -->
+		<div class="content-wrapper">
+			<div class="content-main animate">
+				<div class="container">
+					<h1 class="page-title">Hey, I'm Vaishnavi!</h1>
+					<h2 style="font-weight: 700;">Student | Designer | Developer | Techie</h2>
+				</div>
+			</div>
+			<!-- Background Wrapper -->
+			<div class="background-wrapper">
+				<div id="background-content"></div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+		<div class="menu">
+			<button class="nav-tgl" type="button" aria-label="toggle menu">
+				<span aria-hidden="true"></span>
+			</button>
+			<div class="nav">
+				<div class="header">
+					<div class="logo animate" >
+						<a href="#">
+							<img class="img-responsive" src="assets/img/log.png" alt="VAI">
+						</a>
+					</div>
+				</div>
+				<div class="nav-content">
+					<a href="" data-toggle="modal" data-target="#modal-about" class="nav-item1">
+						<h1 class="nav-link">About</h1>
+					</a>  
+					<a href="" data-toggle="modal" data-target="#modal-projects" class="nav-item2">
+						<h1 class="nav-link">Projects</h1>
+					</a>
+					<a href="https://devrel.page/" class="nav-item3">
+						<h1 class="nav-link"></h1>
+					</a>
+					<a href="" class="nav-item4">
+						<h1 class="nav-link">Blog</h1>
+					</a>
+					<a href="mailto:vapa18cs@gmail.com" target="_blank" class="nav-item5">
+						<h1 class="nav-link">Let's Connect!</h1>
+					</a>
+				</div>
+				<div class="footer">
+					<div class="social-icons animate">
+						<a href="https://github.com/polaiee" target="_blank"><i class="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/vaishnavi-patil-107b28201/" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a href="" target="_blank"><i class="fa fa-medium"></i></a>
+						<a href="mailto:vapa18cs@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+					</div>
+				</div>   
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div class="social-icons animate">
+				<a href="https://github.com/polaiee" target="_blank"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/vaishnavi-patil-107b28201/" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="" target="_blank"><i class="fa fa-medium"></i></a>
+				<a href="mailto:vapa18cs@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+			</div>
+		</footer>
+	</div>
+
+	<!-- About Modal -->
+	<div class="modal fade" id="modal-about" tabindex="-1" role="dialog" aria-labelledby="modal-about-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-about-label">About</h2>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<!-- Left Col for Introduction -->
+							<div class="col-md-3" style="overflow: hidden; ">
+								<div class="person">
+									<div class="image">
+										<img class="img-responsive" src="assets/img/pic.jpg" alt="Vaishnavi">
+									</div>
+									<h4>Vaishnavi Patil</h4>
+									<h5>Student at <a href="http://example.com">CMR Institute of Technology</a></h5>
+									<h5><a href="mailto:vapa18cs@gmail.com" target="_blank">vapa18cs@gmail.com</a></h5>
+									<h5><i class="fa fa-map-marker"></i><span style="padding-left: 8px;">India</span></h5>
+									<div class="social-icons" style="margin-left: -0.3125rem;">
+										<a href="https://github.com/polaiee" target="_blank"><i class="fa fa-github"></i></a>
+										<a href="https://www.linkedin.com/in/vaishnavi-patil-107b28201/" target="_blank"><i class="fa fa-linkedin"></i></a>
+										<a href="" target="_blank"><i class="fa fa-medium"></i></a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Right Col for Description -->
+							<div class="col-md-9">
+								<section>
+									<p>
+										Vaishnavi is a 3rd year student in CMRIT pursuing Bachlors in Computer Science Engineering. She bears a strong passion for development in treaming applications and cloud centered towards building end-to-end user centric products. She is a Hackathon enthusiast and has participated in over 20+ hackathons and competitions. She also enjoys designing apps and managing product development cycles.  
+									</p>
+									
+								</section>
+								<section>
+									<h3>Current Role</h3>
+									<div class="item">
+										<div class="row">
+											<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+												<a href="http://example.com"><img class="img-responsive" src="assets/img/company.jpg" alt="mlh" style="margin-left: 0; width: 100%; margin-bottom: 10px;"></a>
+											</div>
+											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<h4>Google Cloud Career Readiness Student Mentor</h3>
+												<h5><a href="http://example.com">Google Cloud India</a></h4>
+												<h5><i class="fa fa-map-marker"></i><span style="padding-left: 8px;">India</span></h5>
+												<p>
+													Mentoring 25 students to help them understand GCP concepts and guide them with GCP hands on labs.
+												</p>
+											</div>
+										</div>
+										<div class="item">
+											<div class="row">
+												<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+													<a href="http://example.com"><img class="img-responsive" src="assets/img/hack.png" alt="mlh" style="margin-left: 0; width: 100%; margin-bottom: 10px;"></a>
+												</div>
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<h4>HackerEarth College Head</h3>
+													<h5><a href="http://example.com">HackerEarth</a></h4>
+													<h5><i class="fa fa-map-marker"></i><span style="padding-left: 8px;">India</span></h5>
+													<p>
+														Established the club under HackerEarth and organized 20+ technical
+workshops and coding contests with 100+ participants.
+													</p>
+												</div>
+											</div>
+										
+										<h3>Previously</h3>
+										<div class="row" style="text-align: center;">
+											<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+												<a href="http://example.com" target="_blank">
+												<img class="img-responsive" src="assets/img/foreign.jpg" style="max-width: 100%;" alt="finin">
+												<h5>Foreign Language Club</h5><h6>French Teacher</h6></a>
+											</div>
+										<div class="row" style="text-align: center;">
+											<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+												<a href="http://example.com" target="_blank">
+												<img class="img-responsive" src="assets/img/aiesec.png" style="max-width: 100%;" alt="finin">
+												<h5>AIESEC</h5><h6>Partnership Development</h6></a>
+											</div>	
+											
+										<div class="row" style="text-align: center;">
+											<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+												<a href="http://example.com" target="_blank">
+												<img class="img-responsive" src="assets/img/tedx.png" style="max-width: 100%;" alt="finin">
+												<h5>TEDX CMRIT</h5><h6>Volunteer</h6></a>
+											</div>		
+											
+										
+									
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Projects Modal -->
+	<div class="modal fade" id="modal-projects" tabindex="-1" role="dialog" aria-labelledby="modal-projects-label">
+		<div class="modal-dialog" role="document">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 class="modal-title" id="modal-projects-label">Projects</h2>
+					</div>
+					<div class="modal-body">
+						<!-- Project Category 1 -->
+						<div style="margin-bottom: 1.875rem;">
+							<h3></h3>
+							<p>
+								
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="project1 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Hackathon Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Underground Water Detection</a></h3>
+												<p class="text">Description: An interactive dashboard to give an overview of the underground water status
+													throughout India. Predicting the underground water status for the next few years by using
+													genetic algorithm on the data collected for Ministry of Jal Shakti and indiawris.gov.in
+												</p><p></p>Tools used: Python, ReactJS, D3JS, APIs.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="project2 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Mini Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Grocify – A Grocery Management System</a></h3>
+												<p class="text">Description: The project objective is to deliver the online shopping application onto android
+													platform. It helps ease the buying of products in a grocery shop anywhere through the internet
+													by using an android device.
+													</p></p>Tools used: Django, SQLite, HTML, CSS, JavaScript, Flutter
+													</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="project3 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Mini Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Library Management System</a></h3>
+												<p class="text">Description: The project objective is to deliver the online shopping application onto android
+													platform. It helps ease the buying of products in a grocery shop anywhere through the internet
+													by using an android device.
+												</p><p>Tools used: python, Heroku, sqlalchemy, Postgresql, Flask, APIs.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Category 2 -->
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="project4 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Mini Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Online Shoe Store</a></h3>
+												<p class="text">Description: Description: A ready to use online website for a shoe store where customers can order their
+													favourite soles, with secure payments feature.
+												</p><p>Tools used: Full Stack Web Development tools (HTML, CSS, JS, Json, Ajax, Jquery, PHP, and
+													MySQL).</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="project5 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Development Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Workspace App</a></h3>
+												<p class="text">Description: The project objective is to deliver a workspace which simulates a collaborative
+													environment for teams on an android platform. It helps ease the process of working in a team
+													remotely.
+												</p><p>Tools used: Kotlin, Android Studio, Firebase.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="project6 card">
+									<div class="wrapper">
+										<div class="data">
+											<div class="content">
+												<span class="type">Community Project</span>
+												<h3 class="title"><a target="_blank" href="http://example.com">Project Name</a></h3>
+												<p class="text">Your project's long description goes here. Make sure you write a long description here for the field to properly occupy the space of the card.</p>
+												<label for="show-menu" class="menu-button"><span></span></label>
+											</div>
+											<input type="checkbox" id="show-menu" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					
+						
+						
+					</div>
+
+					
+					
+						
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+	<!-- Sketch.js -->
+	<script  src="assets/js/sketch.min.js"></script>
+	
+	<!-- Project JS File -->
+	<script  src="assets/js/script.js"></script>
+</body>
+</html>
